@@ -13242,7 +13242,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Concurrency-and-Parralism-in-Python">Concurrency and Parralism in Python<a class="anchor-link" href="#Concurrency-and-Parralism-in-Python">&#182;</a></h1><h2 id="pyconil-2019">pyconil 2019<a class="anchor-link" href="#pyconil-2019">&#182;</a></h2><h3 id="by-Guy-Doulberg">by Guy Doulberg<a class="anchor-link" href="#by-Guy-Doulberg">&#182;</a></h3><p><img src="https://pycon.org.il/2019/static/images/logo_pyconil_2019.png?h=9ad232e9" width="200" height="200" /></p>
+<h1 id="Concurrency-and-Parallelism-in-Python">Concurrency and Parallelism in Python<a class="anchor-link" href="#Concurrency-and-Parallelism-in-Python">&#182;</a></h1><h2 id="pyconil-2019">pyconil 2019<a class="anchor-link" href="#pyconil-2019">&#182;</a></h2><h3 id="by-Guy-Doulberg">by Guy Doulberg<a class="anchor-link" href="#by-Guy-Doulberg">&#182;</a></h3><p><img src="https://pycon.org.il/2019/static/images/logo_pyconil_2019.png?h=9ad232e9" width="200" height="200" /></p>
 
 </div>
 </div>
@@ -13281,10 +13281,10 @@ a.anchor-link {
 <li>Working for <a href="https://satellogic.com/">Satellogic</a> </li>
 <li>A startup that wants to capture frequent high quality images of the earth</li>
 <li>We use satellites to produce images</li>
-<li>I am resposible for some of the data processing that is being done after the cpature was taken</li>
-<li>We used python concurrency and parralism in our system.</li>
+<li>I am responsible for some of the data processing that is being done after the capture was taken</li>
+<li>We used python concurrency and parallelism in our system.</li>
 </ul>
-<p>An image that was captured by one of Satellogic's sattellites</p>
+<p>An image that was captured by one of Satellogic's satellites</p>
 <p><img src="https://satellogic.com/wp-content/themes/satellogic-theme/dist/assets/images/what-we-do.jpg" width="400" height="400" /></p>
 
 </div>
@@ -13302,7 +13302,7 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
 <li>Because it is important for every python developer</li>
-<li>Becasue I was happy to hear this talk about 2 years ago when I had the need to concurrency in python</li>
+<li>Because I was happy to hear this talk about 2 years ago when I had the need to concurrency in python</li>
 <li>Because it is fun</li>
 </ul>
 
@@ -13320,9 +13320,9 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>What is Concucurency and Parralism</li>
-<li>How to implement softwares that use Concurrency and Parraslism in the python stadard library </li>
-<li>How to implement Concurrency and Parraslism acrross hosts (cluster)</li>
+<li>What is Concurrency and Parallelism</li>
+<li>How to implement softwares that use Concurrency and Parallelism in the python standard library </li>
+<li>How to implement Concurrency and Parallelism across hosts (cluster)</li>
 </ul>
 
 </div>
@@ -13331,7 +13331,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="The-examples-you-are-going-to-see-are-made-up,-synthesised-to-make-points">The examples you are going to see are made up, synthesised to make points<a class="anchor-link" href="#The-examples-you-are-going-to-see-are-made-up,-synthesised-to-make-points">&#182;</a></h1>
+<h1 id="The-examples-you-are-going-to-see-are-made-up,-synthezised-to-make-points">The examples you are going to see are made up, synthezised to make points<a class="anchor-link" href="#The-examples-you-are-going-to-see-are-made-up,-synthezised-to-make-points">&#182;</a></h1>
 </div>
 </div>
 </div></section><section>
@@ -13367,7 +13367,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Theortical-background">Theortical background<a class="anchor-link" href="#Theortical-background">&#182;</a></h1>
+<h1 id="Theoretical-background">Theoretical background<a class="anchor-link" href="#Theoretical-background">&#182;</a></h1>
 </div>
 </div>
 </div></section><section>
@@ -13382,7 +13382,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Parralism">Parralism<a class="anchor-link" href="#Parralism">&#182;</a></h1><p>Consider you have two or more tasks that run exactly on the same time (in parralel paths).</p>
+<h1 id="Parallelism">Parallelism<a class="anchor-link" href="#Parallelism">&#182;</a></h1><p>Consider you have two or more tasks that run exactly on the same time (in parallel paths).</p>
 
 </div>
 </div>
@@ -13399,7 +13399,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="IO-bound-vs-CPU-bound">IO bound vs CPU bound<a class="anchor-link" href="#IO-bound-vs-CPU-bound">&#182;</a></h1><p>When considering optimiziation of a code block by either running the code in parrallel or concurrently, you should indentify your <strong>bottleneck</strong> properly.</p>
+<h1 id="IO-bound-vs-CPU-bound">IO bound vs CPU bound<a class="anchor-link" href="#IO-bound-vs-CPU-bound">&#182;</a></h1><p>When considering optimization of a code block by either running the code in parallel or concurrently, you should indentify your <strong>bottleneck</strong> properly.</p>
 
 </div>
 </div>
@@ -13427,7 +13427,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>It is important to identify the nature of your program becasue:</p>
+<p>It is important to identify the nature of your program because:</p>
 
 </div>
 </div>
@@ -13489,9 +13489,9 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Physics">Physics<a class="anchor-link" href="#Physics">&#182;</a></h2><ul>
-<li><p>In a single machine you can't utilize more than your avialable disk I/O</p>
+<li><p>In a single machine you can't utilize more than your available disk I/O</p>
 </li>
-<li><p>In a single machine you can't utilize more than your avialable network I/O</p>
+<li><p>In a single machine you can't utilize more than your available network I/O</p>
 </li>
 <li><p>In a client server architecture, a client can't work faster than the server</p>
 </li>
@@ -13526,7 +13526,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Naive-implemetation-will-be-sequential">Naive implemetation will be <strong>sequential</strong><a class="anchor-link" href="#Naive-implemetation-will-be-sequential">&#182;</a></h1>
+<h1 id="Naive-implementation-will-be-sequential">Naive implementation will be <strong>sequential</strong><a class="anchor-link" href="#Naive-implementation-will-be-sequential">&#182;</a></h1>
 </div>
 </div>
 </div><div class="fragment">
@@ -13599,7 +13599,7 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
 <li><strong>ThreadPoolExecutor</strong> - An Executor subclass that uses a pool of at most max_workers threads to execute calls asynchronously ....</li>
-<li><strong>as_completed</strong> - Returns an iterator over the Future instances (possibly created by different Executor instances) given by fs that yields futures as they complete (finished or were cancelled). </li>
+<li><strong>as_completed</strong> - Returns an iterator over the Future instances (possibly created by different Executor instances) given by fs that yields futures as they complete (finished or were canceled). </li>
 </ul>
 
 </div>
@@ -13608,7 +13608,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="The-code-I-want-to-run-concurrently-is-the-code-that-is-actaully-doing-the-calls-to-the-server:">The code I want to run concurrently is the code that is actaully doing the calls to the server:<a class="anchor-link" href="#The-code-I-want-to-run-concurrently-is-the-code-that-is-actaully-doing-the-calls-to-the-server:">&#182;</a></h2>
+<h2 id="The-code-I-want-to-run-concurrently-is-the-code-that-is-actually-doing-the-calls-to-the-server:">The code I want to run concurrently is the code that is actually doing the calls to the server:<a class="anchor-link" href="#The-code-I-want-to-run-concurrently-is-the-code-that-is-actually-doing-the-calls-to-the-server:">&#182;</a></h2>
 </div>
 </div>
 </div><div class="fragment">
@@ -13637,7 +13637,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="The-thread-pool-will-exectute-the-code-concurrently">The thread pool will exectute the code concurrently<a class="anchor-link" href="#The-thread-pool-will-exectute-the-code-concurrently">&#182;</a></h2>
+<h2 id="The-thread-pool-will-execute-the-code-concurrently">The thread pool will execute the code concurrently<a class="anchor-link" href="#The-thread-pool-will-execute-the-code-concurrently">&#182;</a></h2>
 </div>
 </div>
 </div></div><div class="fragment">
@@ -13692,7 +13692,7 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="What-happens-when-we-reach-the-limit?">What happens when we reach the limit?<a class="anchor-link" href="#What-happens-when-we-reach-the-limit?">&#182;</a></h1><ul>
 <li>Depends on what is blocking us</li>
-<li>If we just exceedrd the available bandwidth (by the server/client ISP, network card) - we just wouldn't be able to run more concurrent tasks</li>
+<li>If we just exceeded the available bandwidth (by the server/client ISP, network card) - we just wouldn't be able to run more concurrent tasks</li>
 <li>We could also be blocked by the server we are trying to reach </li>
 </ul>
 <p>It might make sense to <strong>throttle</strong> our requests</p>
@@ -13809,13 +13809,13 @@ a.anchor-link {
 <h2 id="asyncio-theory">asyncio theory<a class="anchor-link" href="#asyncio-theory">&#182;</a></h2><ol>
 <li><p>The idea is that there is an event loop(main thread),</p>
 </li>
-<li><p>The event loop deligates iobounded tasks to other threads and continues with its exectution sequence.</p>
+<li><p>The event loop delegates iobounded tasks to other threads and continues with its execution sequence.</p>
 </li>
 <li><p>When result is ready, the event loop goes back to the the code that called the task and continues its sequence.</p>
 </li>
 <li><p>The event loop decides when and which code it runs, the code it runs must not block!</p>
 </li>
-<li><p>Conisder we have 10 non blocking methods that fetch data from a server, the main loop runs them concurrently.</p>
+<li><p>Consider we have 10 non blocking methods that fetch data from a server, the main loop runs them concurrently.</p>
 </li>
 </ol>
 
@@ -13864,7 +13864,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="await-for-all-the-corutines-to-return">await for all the corutines to return<a class="anchor-link" href="#await-for-all-the-corutines-to-return">&#182;</a></h2><ul>
+<h2 id="await-for-all-the-coroutines-to-return">await for all the coroutines to return<a class="anchor-link" href="#await-for-all-the-coroutines-to-return">&#182;</a></h2><ul>
 <li>Await keyword works only if you are in the an active event loop</li>
 </ul>
 
@@ -13942,7 +13942,7 @@ a.anchor-link {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Which-module-to-choose?">Which module to choose?<a class="anchor-link" href="#Which-module-to-choose?">&#182;</a></h1><p>I think it is a matter of taste,</p>
-<p>Maybe I am old fashined, but I prefer the the Exector module becasue it is easier for me to folow the code path</p>
+<p>Maybe I am old fashioned, but I prefer the the Executor module because it is easier for me to follow the code path</p>
 
 </div>
 </div>
@@ -13957,7 +13957,7 @@ a.anchor-link {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="For-the-propuse-of-the-talk-I-am-going-to-produce-a-big-array-of-random-floats">For the propuse of the talk I am going to produce a big array of random floats<a class="anchor-link" href="#For-the-propuse-of-the-talk-I-am-going-to-produce-a-big-array-of-random-floats">&#182;</a></h2>
+<h2 id="For-the-purpose-of-the-talk-I-am-going-to-produce-a-big-array-of-random-floats">For the purpose of the talk I am going to produce a big array of random floats<a class="anchor-link" href="#For-the-purpose-of-the-talk-I-am-going-to-produce-a-big-array-of-random-floats">&#182;</a></h2>
 </div>
 </div>
 </div><div class="fragment">
@@ -13981,7 +13981,7 @@ a.anchor-link {
 <ul>
 <li><p>I am using numpy to speed things up,</p>
 </li>
-<li><p>The numpy object is also an object which is easier to share accross processes - I will use this feature</p>
+<li><p>The numpy object is also an object which is easier to share across processes - I will use this feature</p>
 </li>
 </ul>
 
@@ -14124,7 +14124,7 @@ Total time of execution: 15.650021076202393
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Can running on these kind of chunks in parllel can help us?</strong></p>
+<p><strong>Can running on these kind of chunks in parallel can help us?</strong></p>
 <ol>
 <li>We have 4 cpus</li>
 <li>Finding a max value out of a chunk take 0.2 seconds</li>
@@ -14141,7 +14141,7 @@ Total time of execution: 15.650021076202393
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Run-the-on-chunk-in-parllel-wait-for-thre-max-values-to-return-and-find-the-maximal-value">Run the on chunk in parllel wait for thre max values to return and find the maximal value<a class="anchor-link" href="#Run-the-on-chunk-in-parllel-wait-for-thre-max-values-to-return-and-find-the-maximal-value">&#182;</a></h3>
+<h3 id="Run-the-on-chunk-in-parallel-wait-for-the-max-values-to-return-and-find-the-maximal-value">Run the on chunk in parallel wait for the max values to return and find the maximal value<a class="anchor-link" href="#Run-the-on-chunk-in-parallel-wait-for-the-max-values-to-return-and-find-the-maximal-value">&#182;</a></h3>
 </div>
 </div>
 </div><div class="fragment">
@@ -14198,10 +14198,10 @@ Total time of execution: 16.2425696849823
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Say-hello-to-the-GIL:--or-Global-Interperter-lock">Say hello to the GIL:  or Global Interperter lock<a class="anchor-link" href="#Say-hello-to-the-GIL:--or-Global-Interperter-lock">&#182;</a></h1><ul>
+<h1 id="Say-hello-to-the-GIL:--or-Global-interpreter-lock">Say hello to the GIL:  or Global interpreter lock<a class="anchor-link" href="#Say-hello-to-the-GIL:--or-Global-interpreter-lock">&#182;</a></h1><ul>
 <li><p>The GIL is a mutex (lock) that prevent access to python objects from different threads.</p>
 </li>
-<li><p>In our case we need access from different threads, but the GIL in practice makes the threds code to run sequetialy using a single thread</p>
+<li><p>In our case we need access from different threads, but the GIL in practice makes the threads code to run sequentially using a single thread</p>
 </li>
 </ul>
 
@@ -14211,7 +14211,7 @@ Total time of execution: 16.2425696849823
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="CPU-utilization-when-running-mutlithreading-code:">CPU utilization when running mutlithreading code:<a class="anchor-link" href="#CPU-utilization-when-running-mutlithreading-code:">&#182;</a></h2><p><img src="https://guydou.github.io/pycon2019_con_para/images/threads_max.png" alt="image"></p>
+<h2 id="CPU-utilization-when-running-multithreading-code:">CPU utilization when running multithreading code:<a class="anchor-link" href="#CPU-utilization-when-running-multithreading-code:">&#182;</a></h2><p><img src="https://guydou.github.io/pycon2019_con_para/images/threads_max.png" alt="image"></p>
 
 </div>
 </div>
@@ -14283,11 +14283,11 @@ Total time of execution: 8.223525524139404
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Why-is-it-not-faster">Why is it not faster<a class="anchor-link" href="#Why-is-it-not-faster">&#182;</a></h2><ul>
-<li>Spawning proceses is an heavy task </li>
+<li>Spawning processes is an heavy task </li>
 <li>Marshaling/Unmarshaling of chunk of data is heavy</li>
 </ul>
 <h2 id="What-to-do?">What to do?<a class="anchor-link" href="#What-to-do?">&#182;</a></h2><ul>
-<li>Initialize the processes in advance and reuse the proceses</li>
+<li>Initialize the processes in advance and reuse the processes</li>
 <li>Use shared memory and pointer </li>
 </ul>
 
@@ -14440,7 +14440,7 @@ Total time of execution: 0.1670057773590088
 <h1 id="CPU-Bound-conclusion:">CPU Bound conclusion:<a class="anchor-link" href="#CPU-Bound-conclusion:">&#182;</a></h1><ol>
 <li>Don't forget the GIL</li>
 <li>Multiprocessing is your friend</li>
-<li>Use native C/C++ labraries suche as: numpy, pandas.</li>
+<li>Use native C/C++ libraries such as: numpy, pandas.</li>
 </ol>
 
 </div>
@@ -14455,7 +14455,7 @@ Total time of execution: 0.1670057773590088
 </ul>
 <p><img src="https://docs.dask.org/en/latest/_images/collections-schedulers.png" alt="architecture"></p>
 <ul>
-<li><p>In other words, you can run a complex excution grpah on many data types using the same code on you laptop and on a multi host cluster</p>
+<li><p>In other words, you can run a complex execution graph on many data types using the same code on you laptop and on a multi host cluster</p>
 </li>
 <li><p>A way to solve memory bounded problems</p>
 </li>
@@ -14536,7 +14536,7 @@ Total time of execution: 0.1670057773590088
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Lets-try-to-find-the-maximal-value-out-a-the-randon_numbers.">Lets try to find the maximal value out a the randon_numbers.<a class="anchor-link" href="#Lets-try-to-find-the-maximal-value-out-a-the-randon_numbers.">&#182;</a></h1><ol>
+<h1 id="Lets-try-to-find-the-maximal-value-out-a-the-random_numbers.">Lets try to find the maximal value out a the random_numbers.<a class="anchor-link" href="#Lets-try-to-find-the-maximal-value-out-a-the-random_numbers.">&#182;</a></h1><ol>
 <li><p>Find the maximal value in each chunk</p>
 </li>
 <li><p>Find the maximal value out of all maximal values</p>
